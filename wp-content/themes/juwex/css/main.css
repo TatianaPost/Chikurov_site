@@ -1,0 +1,214 @@
+.nobreak {
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  -o-column-break-inside: avoid;
+  -ms-column-break-inside: avoid;
+  display: table;
+}
+@font _color = #ffffff;
+/* Your Custom code here */
+.popup {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+}
+.popup_bg {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+}
+.popup_img {
+  position: relative;
+  margin: 0 auto;
+  z-index: 2000;
+  max-height: 94%;
+  max-width: 94%;
+  margin: 1% 0 0 0;
+}
+a {
+  color: #000000;
+}
+body {
+  background: #ececec;
+  margin: 0;
+}
+table {
+  background: #ff0000;
+  table-layout: fixed;
+  box-sizing: border-box;
+  width: 1280px;
+  border-spacing: 0px;
+  border: 1px !important;
+  cellspacing: 0;
+  cellpadding: 0;
+  border-color: 0px;
+}
+table td {
+  width: 320px !important;
+  overflow: hidden;
+  height: 320px;
+}
+.image {
+  width: 25%;
+  white-space: nowrap;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  border-right: 1px solid #a9a9a9;
+  border-bottom: 1px solid #a9a9a9;
+  cursor: pointer;
+}
+.td_content {
+  box-sizing: border-box;
+  width: 320px;
+  position: relative;
+}
+.wrapper {
+  width: 96%;
+  max-width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+.wrapper.content {
+  position: relative;
+  top: 225px;
+  border-left: 1px solid #a9a9a9;
+}
+.wrapper_white {
+  width: 1280px;
+  margin: 0 auto;
+  border-right: 1px solid #a9a9a9;
+  border-left: 1px solid #a9a9a9;
+  position: relative;
+  background: white;
+  box-sizing: border-box;
+  display: block;
+}
+.top_menu {
+  margin: 0 auto;
+  background: #ffffff;
+  border-bottom: 1px solid #a9a9a9;
+  position: static;
+  box-sizing: border-box;
+}
+.buttons {
+  float: left;
+  text-align: center;
+  line-height: 41px;
+  font-size: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+  width: auto;
+  border-right: 1px solid #a9a9a9;
+  box-sizing: border-box;
+}
+.buttons_menu {
+  float: left;
+  text-align: center;
+  line-height: 69px;
+  font-size: 24px;
+  height: 69px;
+  width: 20%;
+  border-left: 1px solid #a9a9a9;
+  border-right: 1px solid #a9a9a9;
+  border-bottom: 1px solid #a9a9a9;
+  box-sizing: border-box;
+  z-index: 95;
+}
+.buttons_social {
+  float: right;
+  text-align: center;
+  line-height: 41px;
+  font-size: 22px;
+  width: 49px;
+  border-left: 1px solid #a9a9a9;
+  color: #cccccc;
+}
+.top_header {
+  height: 225px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+.header_third {
+  height: 114px;
+  background: #2b211c;
+  float: left;
+}
+.header_third.logo_section {
+  text-align: center;
+  line-height: 114px;
+  width: 10%;
+}
+.header_third.adress_section {
+  text-align: center;
+  font-size: 22px;
+  line-height: 114px;
+  color: #ffffff;
+  width: 45%;
+}
+.header_third.name_section {
+  font-size: 22px;
+  line-height: 114px;
+  color: #ffffff;
+  width: 45%;
+}
+.header_text {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+.site_header {
+  height: 114px;
+  background: #2b211c;
+}
+.top_navigation {
+  height: 70px;
+  background: #ffffff;
+  width: 96%;
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 1px solid #a9a9a9;
+  box-sizing: border-box;
+}
+.top_navigation .ale_headermenu {
+  line-height: 70px;
+}
+.top_navigation .ale_headermenu li {
+  float: left;
+  height: 70px;
+  font-size: 24px;
+  border-right: 1px solid #a9a9a9;
+  border-bottom: 1px solid #a9a9a9;
+  width: 224px;
+  text-align: center;
+  position: relative;
+}
+.top_navigation .ale_headermenu li a {
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  color: #000000;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.top_navigation .ale_headermenu li a:hover {
+  color: #a9a9a9;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+/*# sourceMappingURL=main.css.map */
