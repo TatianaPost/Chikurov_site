@@ -2,6 +2,9 @@
 /*
   * Template name: Home
   * */
+require_once('database.php');
+connect();
+
 get_header();
 
 if(ale_get_meta('descr1')){
